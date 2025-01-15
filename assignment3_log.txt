@@ -1,39 +1,0 @@
-Script started on 2025-01-15 12:11:00-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="44"]
-[?2004h]0;ubuntu@sp25: ~[01;32mubuntu@sp25[00m:[01;34m~[00m$ cd r[Kprojects/25sp327_KaleelU/linux_practice/
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ touch permissions_tes t.txt
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls -l
-[?2004ltotal 8
--rw-rw-r-- 1 ubuntu ubuntu 28 Jan 15 11:54 README.md
--rw-rw-r-- 1 ubuntu ubuntu  0 Jan 15 12:11 permissions_test.txt
--rw-rw-r-- 1 ubuntu ubuntu 14 Jan 15 12:08 renamed_file.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ chmod 750 permissions _text.txt
-[?2004lchmod: cannot access 'permissions_text.txt': No such file or directory
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ chmod 750 permissions_text.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kpermissions_test.txt 
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls -l
-[?2004ltotal 8
--rw-rw-r-- 1 ubuntu ubuntu 28 Jan 15 11:54 README.md
--rwxr-x--- 1 ubuntu ubuntu  0 Jan 15 12:11 [0m[01;32mpermissions_test.txt[0m
--rw-rw-r-- 1 ubuntu ubuntu 14 Jan 15 12:08 renamed_file.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ git add permissions_t est.[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Kpermissions_test.txt 
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ git commit -m "Update d persmissions for permissions_text.[K[K[K[Kest.txg[Kt"
-[?2004l[main f73ff6c] Updated persmissions for permissions_test.txt
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100755 linux_practice/permissions_test.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ git push
-[?2004leEnumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
-Delta compression using up to 2 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 415 bytes | 207.00 KiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-xiTo github.com:ukaleel/25sp327_KaleelU.git
-   8e27519..f73ff6c  main -> main
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ exit
-[?2004lexit
-
-Script done on 2025-01-15 12:20:11-06:00 [COMMAND_EXIT_CODE="0"]

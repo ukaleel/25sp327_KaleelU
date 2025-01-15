@@ -1,45 +1,0 @@
-Script started on 2025-01-15 12:04:56-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="44"]
-[?2004h]0;ubuntu@sp25: ~[01;32mubuntu@sp25[00m:[01;34m~[00m$ c[Kcd projects/s[K25sp327_KaleelU/linux_practice/
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ echo "Hello, [K[K[K[K[K[K[K[K[K[K[K[K[Ktouch mmy[K[Ky_file.txt
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls
-[?2004lREADME.md  my_file.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ echo "Hello, Linux" [K[K!"  > my_file.txt
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ cat my_file.txt 
-[?2004lHello, Linux!
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ cp my_file.txt > my_f ile_copy.txt
-[?2004lcp: missing destination file operand after 'my_file.txt'
-Try 'cp --help' for more information.
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ cp my_file.txt > my_file_copy.txt[A]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ [C[5Pat my_file.txt 
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp my_file.txt > my_file_copy.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> my_file_copy.txt[A]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-[?2004lcp: missing destination file operand after 'my_file.txt'
-Try 'cp --help' for more information.
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ cp my_file.txt >> my_file_copy.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C my_fi[1Ple_copy.txt[A]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C my_fil[1Pe_copy.txt[A]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmy_file[1P_copy.txt[A]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls
-[?2004lREADME.md  my_file.txt  my_file_copy.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ mv my_file[Ke_copy.txt r enamed+[K_file.txt
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls
-[?2004lREADME.md  my_file.txt  renamed_file.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ rm my_file.txt
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ cat my[K[Krenamed_file.txt  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
-[?2004lHello, Linux!
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ git add renamed_file.txt [K
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ git commit -m "Create d and manipulated files in linux_practice directory"
-[?2004l[main 8e27519] Created and manipulated files in linux_practice directory
- 1 file changed, 1 insertion(+)
- create mode 100644 linux_practice/renamed_file.txt
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ i[Kgit push
-[?2004lEnumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
-Delta compression using up to 2 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 393 bytes | 98.00 KiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:ukaleel/25sp327_KaleelU.git
-   47a27de..8e27519  main -> main
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ exit
-[?2004lexit
-
-Script done on 2025-01-15 12:09:41-06:00 [COMMAND_EXIT_CODE="0"]

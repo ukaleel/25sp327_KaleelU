@@ -1,36 +1,0 @@
-Script started on 2025-01-15 11:53:34-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="44"]
-[?2004h]0;ubuntu@sp25: ~[01;32mubuntu@sp25[00m:[01;34m~[00m$ pwd
-[?2004l/home/ubuntu
-[?2004h]0;ubuntu@sp25: ~[01;32mubuntu@sp25[00m:[01;34m~[00m$ cd projects
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects[01;32mubuntu@sp25[00m:[01;34m~/projects[00m$ cd[K[Kcd 25sp327_KaleelU/
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ p[Kmkdir linux_r[Kpractice
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ cd linux_practice/
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls[K[Kcd..
-[?2004llcd..: command not found
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls[K[Kcd ..
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ ls
-[?2004lREADME.md  assignment_log.txt  [0m[01;34mbooksrc[0m  [01;34mlinux_practice[0m  [01;31mmaster.zip[0m
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ .[Kcd linux_practice
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ [7mecho "## Linux Practi[27m[7mc[27m[7me Directory" > README.md[27m[A]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ echo "## Linux Practice Directory" > README.md
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ ls
-[?2004lREADME.md
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU/linux_practice[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU/linux_practice[00m$ cd..[K[K ..
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ cd[K[Kgit add linux_practice
-[?2004l[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ git commit -m "a[KAdded linux_practice  directory"
-[?2004l[main 47a27de] Added linux_practice directory
- 1 file changed, 1 insertion(+)
- create mode 100644 linux_practice/README.md
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ git push
-[?2004lEnumerating objects: 5, done.
-Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
-Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 367 bytes | 183.00 KiB/s, done.
-Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
-To github.com:ukaleel/25sp327_KaleelU.git
-   800b8e3..47a27de  main -> main
-[?2004h]0;ubuntu@sp25: ~/projects/25sp327_KaleelU[01;32mubuntu@sp25[00m:[01;34m~/projects/25sp327_KaleelU[00m$ exit
-[?2004lexit
-
-Script done on 2025-01-15 11:55:08-06:00 [COMMAND_EXIT_CODE="0"]
