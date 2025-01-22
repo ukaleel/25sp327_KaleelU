@@ -1,0 +1,27 @@
+Summaries for 3 new linux commands
+
+1. grep [options] keyword [file]
+
+Command allows you to search for a file using specific keywords
+allowing you to filter through many files to find ones with certain
+parameters
+
+There are a lot of syntax related options you can pick that are helpful
+in filtering results
+
+
+2. sed [options] 'subcommand/new_pattern/target_pattern' input_file
+
+Allows you to replace patterns within files very quickly
+
+One option is the s which is helpful in modifying multiple files and 
+treating every file listed individually
+
+3. locate [options] [keyword]
+
+Alows you to find the path of a file based off of it's file name
+
+Using the -i option, you can make it non case-sensitive, which is 
+very helpful in finding files that you are unsure of the specific
+naming method
+
