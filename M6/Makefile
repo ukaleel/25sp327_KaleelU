@@ -7,7 +7,6 @@ setuid_demo: setuid_demo.c
 	$(CC) $(CFLAGS) $^ -o $@
 
 clean:
-	echo "Cleaning up..."
 	rm -f setuid_demo
 
 test: all
