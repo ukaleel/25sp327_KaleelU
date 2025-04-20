@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "cmocka.h": "c",
+        "thread_pool.h": "c",
+        "cstdlib": "cpp"
+    }
+}

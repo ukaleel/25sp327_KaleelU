@@ -1,0 +1,10 @@
+[2025-04-20 14:00:16] [Thread 69716] Sum of numbers < 183 is 16653
+[2025-04-20 14:00:17] [Thread 69716] Log message 1
+[2025-04-20 14:00:17] [Thread 69715] Simulated delay of 0 seconds and 142 milliseconds.
+[2025-04-20 14:00:18] [Thread 69716] Log message 2
+[2025-04-20 14:00:18] [Thread 69715] Sum of numbers < 384 is 73536
+[2025-04-20 14:00:18] [Thread 69716] Simulated delay of 0 seconds and 201 milliseconds.
+[2025-04-20 14:00:18] [Thread 69715] Sum of numbers < 829 is 343206
+[2025-04-20 14:00:19] [Thread 69716] Log message 3
+[2025-04-20 14:00:19] [Thread 69715] Log message 4
+[2025-04-20 14:00:19] [Thread 69716] Sum of numbers < 364 is 66066
